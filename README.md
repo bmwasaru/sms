@@ -25,7 +25,7 @@ You need to have the following:
   . venv/bin/activate
   ```
 - Africa's Talking API Key, username, sender ID
-- A csv file with `phone_number` that has the phone number in the right format `+254XXXXXXXXX`
+- A csv file with `phone_numbers` that has the phone numbers in the right format `+254XXXXXXXXX`
 - Run the command script pass the parameters are shown below
   ```
   python send_sms.py phone_numbers.csv "Your message goes here"
